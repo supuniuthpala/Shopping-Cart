@@ -63,6 +63,38 @@
             padding-top: 10px;
             padding-bottom: 10px;
         }
+        #row{
+            display: flex;
+        }
+
+        .gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 180px;
+        }
+
+        .gallery:hover {
+            border: 1px solid #777;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+        .desc {
+            padding: 15px;
+            text-align: left;
+            color: #8B0000;
+            font-size: 16px; 
+            font-family: 'Amita';
+            font-weight: bold;
+        }
+        #small{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            color: #8B0000; 
+            font-weight: 1;
+        }
     </style>
 </head>
 <body>
@@ -86,8 +118,8 @@
         <h2>Malshan Flora  <span id="text">your online Florist to deliver Flowers in Kotikawatta</span></h2>
 
         <div id="container1">
-            <img src="C:\Users\uthpalam_se17044\Desktop\Malshan Flora\images\euroflora-florist-flower-bouquet.jpg"/>
-            <img src="C:\Users\uthpalam_se17044\Desktop\Malshan Flora\images\Cheyanne.jpg"/>
+            <img src="images\euroflora-florist-flower-bouquet.jpg"/>
+            <img src="images\Cheyanne.jpg"/>
         </div>
         
         <br><br><br>
@@ -101,15 +133,125 @@
         Payments accepted: Credit Card and Paypal. </p>
 
         <div id="container2">
-            <img src="C:\Users\uthpalam_se17044\Desktop\Malshan Flora\images\the smile.jpg"/>
-            <img src="C:\Users\uthpalam_se17044\Desktop\Malshan Flora\images\Cheyanne.jpg" />
-            <img src="C:\Users\uthpalam_se17044\Desktop\Malshan Flora\images\Nicloe.jpg" />
-            <img src="C:\Users\uthpalam_se17044\Desktop\Malshan Flora\images\Denise.jpg" />
-            <img src="C:\Users\uthpalam_se17044\Desktop\Malshan Flora\images\Lia.jpg" />
-            <img src="C:\Users\uthpalam_se17044\Desktop\Malshan Flora\images\alexa.jpg" />
-            <img src="C:\Users\uthpalam_se17044\Desktop\Malshan Flora\images\nora.jpg" />
-            <img src="C:\Users\uthpalam_se17044\Desktop\Malshan Flora\images\Lucille.jpg" />
+            <div id="row">
+                <div class="gallery">
+                    <a target="_blank" href="images\the smile.jpg">
+                        <img src="images\the smile.jpg" alt="Cinque Terre" width="600" height="400">
+                    </a>
+                    <div class="desc">The Smile<br><span id="small">Roses and mixed flowers</span></div>
+                </div>
+                  
+                <div class="gallery">
+                    <a target="_blank" href="images\Cheyanne.jpg">
+                        <img src="images\Cheyanne.jpg" alt="Forest" width="600" height="400">
+                    </a>
+                    <div class="desc">Cheyanne<br><span id="small">Bright gerberas or daisies, alstroemerias and mixed flowers</span></div>
+                </div>
+                  
+                <div class="gallery">
+                    <a target="_blank" href="images\Nicloe.jpg">
+                        <img src="images\Nicloe.jpg" alt="Northern Lights" width="600" height="400">
+                    </a>
+                    <div class="desc">Nicloe<br><span id="small">Mixed bright flowers</span></div>
+                </div>
+                  
+                <div class="gallery">
+                    <a target="_blank" href="images\Denise.jpg">
+                        <img src="images\Denise.jpg" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc">Denise<br><span id="small">Lively roses, daisies or gerberas and mixed flowers</span></div>
+                </div>
+            </div>
+            <div id="row">
+                <div class="gallery">
+                    <a target="_blank" href="images\Lia.jpg">
+                        <img src="images\Lia.jpg" alt="Cinque Terre" width="600" height="400">
+                    </a>
+                    <div class="desc">Lia<br><span id="small">Pastel roses, gerberas and mixed flowers</span></div>
+                </div>
+                  
+                <div class="gallery">
+                    <a target="_blank" href="images\alexa.jpg">
+                        <img src="images\alexa.jpg" alt="Forest" width="600" height="400">
+                    </a>
+                    <div class="desc">Alexa<br><span id="small">Bright roses, gerberas and mixed flowers</span></div>
+                </div>
+                  
+                <div class="gallery">
+                    <a target="_blank" href="images\nora.jpg">
+                        <img src="images\nora.jpg" alt="Northern Lights" width="600" height="400">
+                    </a>
+                    <div class="desc">Nora<br><span id="small">Red roses, daisies and mixed flowers</span></div>
+                </div>
+                  
+                <div class="gallery">
+                    <a target="_blank" href="images\Lucille.jpg">
+                        <img src="images\Lucille.jpg" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc">Lucille<br><span id="small">Delicate roses, lilies, alstroemerias and mixed flowers</span></div>
+                </div>
+            </div>   
+            <div id="row">
+                <div class="gallery">
+                    <a target="_blank" href="images\the smile.jpg">
+                        <img src="images\the smile.jpg" alt="Cinque Terre" width="600" height="400">
+                    </a>
+                    <div class="desc">Vwana<br><span id="small">Sunny roses, gerberas, alstroemerias and mixed flowers</span></div>
+                </div>
+                  
+                <div class="gallery">
+                    <a target="_blank" href="images\Cheyanne.jpg">
+                        <img src="images\Cheyanne.jpg" alt="Forest" width="600" height="400">
+                    </a>
+                    <div class="desc">Mila<br><span id="small">Lively roses, gerberas and mixed flowers</span></div>
+                </div>
+                  
+                <div class="gallery">
+                    <a target="_blank" href="images\Nicloe.jpg">
+                        <img src="images\Nicloe.jpg" alt="Northern Lights" width="600" height="400">
+                    </a>
+                    <div class="desc">Gabriella<br><span id="small">Bright roses, lilies, gerberas and mixed flowers</span></div>
+                </div>
+                  
+                <div class="gallery">
+                    <a target="_blank" href="images\Denise.jpg">
+                        <img src="images\Denise.jpg" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc">Maribel <br><span id="small">Pastel roses, gerberas or daisies and mixed flowers</span></div>
+                </div>
+            </div>
+            <div id="row">
+                <div class="gallery">
+                    <a target="_blank" href="images\the smile.jpg">
+                        <img src="images\the smile.jpg" alt="Cinque Terre" width="600" height="400">
+                    </a>
+                    <div class="desc">Orchidea<br><span id="small">First class orchid plant</span></div>
+                </div>
+                  
+                <div class="gallery">
+                    <a target="_blank" href="images\Cheyanne.jpg">
+                        <img src="images\Cheyanne.jpg" alt="Forest" width="600" height="400">
+                    </a>
+                    <div class="desc">Aria<br><span id="small">Pink roses, gerberas, lilies and mixed flowers</span></div>
+                </div>
+                  
+                <div class="gallery">
+                    <a target="_blank" href="images\Nicloe.jpg">
+                        <img src="images\Nicloe.jpg" alt="Northern Lights" width="600" height="400">
+                    </a>
+                    <div class="desc">Remy<br><span id="small">White and red roses, lilies, daisies or gerberas and mixed flowers</span></div>
+                </div>
+                  
+                <div class="gallery">
+                    <a target="_blank" href="images\Denise.jpg">
+                        <img src="images\Denise.jpg" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc">Bianca <br><span id="small">Delicate roses, lisianthuses, lilies and mixed flowers</span></div>
+                </div>
+            </div>         
         </div>
+        
+        
     </div>
 </body>
 </html>
